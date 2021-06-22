@@ -1,0 +1,17 @@
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  background-color: #1d1e20;
+}
+
+#Projects {
+  background-color: #1d1e20;
+}
+
+.svg {
+  margin-top: 90px;
+}
+
+section {
+  padding-top: 6rem;
+}
