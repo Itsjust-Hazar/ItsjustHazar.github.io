@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html {
+        background: url(farcry5.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+
+</style>
+<script>
+  function checkPassword() {
+    var password = document.getElementById("passwordBox");
+    var passwordText = password.value;
+    if (passwordText == "3 PERIODE") {
+      return true;
+    }
+    alert("Access denied! Incorrect password!");
+    return false;
+  }
+</script>
+
+    <title>Password</title>
+  </head>
+
+  <body>
+    <div class="search-box">
+      <input id="passwordBox" class="search-txt" type="text" name="" placeholder="Type the Password" />
+      <a class="search-btn" href="Password2.html" onclick="return checkPassword();">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+          <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+        </svg>
+      </a>
+    </div>
+  </body>
+</html>
